@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>$tax Tetris</title>
+	<link rel="stylesheet" type="text/css" href="tetris.css"></link>
+	<link href="https://fonts.googleapis.com/css?family=Geostar+Fill&display=swap" rel="stylesheet"> 
+<body>
+	<header>
+		<h1>$tax Tetris Game</h1>
+	</header>
+	<main>
+		<div class="box" id="game">
+			<canvas id="gameWindow">This should be the game window. It appears your browser does not support canvas.</canvas>
+		</div>
+		<div class="box" id="info">
+			<h2 id="scoreTitle">Score:</h2>
+			<span id="scoreNumber">0</span>
+			<h2 id="levelTitle">Level:</h2>
+			<span id="levelNumber">1</span>
+			<div id="tomoBox">
+				<img id="tomo" src="tomo_tetris_thumbsup.png" alt="Good job!">
+			</div>
+		</div>
+	</main>
+
+<script type="text/javascript" src="shapes.js"></script>
+<script type="text/javascript" src="tetris.js"></script>
+</body>
+</html>
